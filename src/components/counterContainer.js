@@ -15,4 +15,4 @@ const mapDispatchToProps = (dispatch) => {
     };
 };
 
-// add code here
+export default connect(mapStateToProps, mapDispatchToProps)(Counter)
